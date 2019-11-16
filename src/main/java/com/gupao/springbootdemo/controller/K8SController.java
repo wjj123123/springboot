@@ -8,7 +8,7 @@ import java.net.InetAddress;
 @RestController
 public class K8SController {
 
-    String result="";
+    String result="mic Mic";
 
     @RequestMapping("/k8s")
     public String k8s(){
