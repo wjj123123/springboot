@@ -13,7 +13,7 @@ public class K8SController {
     @RequestMapping("/k8s")
     public String k8s(){
         try {
-            //用 getLocalHost() 方法创建的InetAddress的对象1
+            //用 getLocalHost() 方法创建的InetAddress的对象12
             InetAddress address = InetAddress.getLocalHost();
             result="hostname: "+address.getHostName()+"hostaddress: "+address.getHostAddress();
             System.out.println();//主机名
